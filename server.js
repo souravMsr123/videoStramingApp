@@ -4,7 +4,6 @@ var http = require("http").createServer(app)
 var mongodb = require("mongodb")
 var mongoClient = mongodb.MongoClient;
 var ObjectId = mongodb.ObjectID;
-var bodyParser = require("body-parser")
 var bcrypt = require("bcrypt")
 var expressSession = require("express-session")
 var formidable = require("formidable")
